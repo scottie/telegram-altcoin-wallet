@@ -1,0 +1,27 @@
+{
+  "name": "btc-private-telegram-wallet",
+  "version": "1.0.0",
+  "description": "A telegram wallet for BTC private",
+  "main": "telegram-bot.js",
+  "scripts": {
+    "test": "mocha Test.js",
+    "dev": "nodemon telegram-bot.js",
+    "start": "node telegram-bot.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "private",
+    "btcp",
+    "bitcoinprivate"
+  ],
+  "author": "Scott Lindh <scottlindh@gmail.com> (http://onzcoin.com)",
+  "license": "ISC",
+  "dependencies": {
+    "altcoin-rpc": "^1.0.2",
+    "mongojs": "^2.5.0",
+    "telebot": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}

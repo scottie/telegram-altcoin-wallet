@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "altcoin-rpc": "^1.0.2",
-    "mongojs": "^2.5.0",
+    "mongojs": "^3.0.0",
     "telebot": "^1.2.3"
   },
   "devDependencies": {
